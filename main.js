@@ -24,12 +24,13 @@ function animation (){
 
 }
 
+//by luan lucas
+
 function SelecionarDiv(){
     let numberRandom = Math.floor(Math.random() * 7 + 1) 
 
     let quadrado = document.querySelector('.content').children[numberRandom]
 
-    quadrado.querySelector('.topera')
     return quadrado
 
 }
